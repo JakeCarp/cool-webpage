@@ -13,7 +13,7 @@ header {
   background-color: rgb(208,225,245);
   width: 30%;
   height: 20px;
-  margin-top:20px;
+  margin:20px
 }
 #subtitle {
   text-align:center;
@@ -21,17 +21,20 @@ header {
 .content {
   display:inline-block;
   position: absolute;
+  bottom:85px;
   left:30%;
   top:20%;
   text-align: left;
   font-size: 20px;
   width: 40%;
+  margin:20px;
 }
 .sidebar {
   display:inline-block;
   position: absolute;
   right:5%;
   top: 20%;
+  bottom:85px;
 width:246px;
 }
 h4 {
@@ -41,8 +44,10 @@ body {
   height:800px;
 }
 footer {
-  position:relative;
-  top:65%;
+  display:inline-block;
+  position: fixed;
+  width:100%;
+  bottom:0;
   height:80px;
   background-color: rgb(28, 69, 135);
   border: 5px solid black;
