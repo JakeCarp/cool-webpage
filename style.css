@@ -1,16 +1,17 @@
 header {
   display:block;
   text-align: center;
-  background-color: rgb(28, 69, 135);
+  height:55px;
+   background-image: linear-gradient(to right, pink, purple);
   border:5px solid black;
-  color:white;
+  color:black;
 }
 .square {
   display:block;
   position:absolute;
   left:35%;
-  top:15%;
-  background-color: rgb(208,225,245);
+  top:10%;
+   background-image: linear-gradient(to right, pink, purple);
   width: 30%;
   height: 20px;
   margin:20px
@@ -19,23 +20,35 @@ header {
   text-align:center;
 }
 .content {
+  background-image: linear-gradient(to right, pink, purple);
+  border:5px double black;
   display:inline-block;
   position: absolute;
   bottom:85px;
   left:30%;
-  top:20%;
+  top:15%;
   text-align: left;
   font-size: 20px;
+  font-size: 1vw;
   width: 40%;
   margin:20px;
+  padding:5px;
+  height: fit-content;
+}
+.content p{
+  font-size: 25px;
 }
 .sidebar {
+   background-image: linear-gradient(to right, pink, purple);
+  border:5px solid black;
+  padding:3px;
   display:inline-block;
   position: absolute;
   right:5%;
   top: 20%;
   bottom:85px;
 width:246px;
+height:400px;
 }
 h4 {
   font-size: 20px;
@@ -48,7 +61,13 @@ footer {
   position: fixed;
   width:100%;
   bottom:0;
-  height:80px;
-  background-color: rgb(28, 69, 135);
+  height:40px;
+  background-image: linear-gradient(to right, pink, purple);
   border: 5px solid black;
+}
+.blended {
+  background-image:url(https://qph.fs.quoracdn.net/main-qimg-7f4ff01964a4d5065f3fc28fdbbb6057-c);
+  background-repeat: repeat-x;
+  background-color: aqua;
+  background-blend-mode:multiply;
 }
